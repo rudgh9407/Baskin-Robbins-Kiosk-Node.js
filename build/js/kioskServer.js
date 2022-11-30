@@ -14,7 +14,7 @@ let con = mysql.createConnection({
 	host: `localhost`,
 	user: `c16st10`,
 	database: `c16st10`,
-	password: `Z9U7dffwthoQloDI`
+	password: `************`
 });
 
 app.get('/kiosk', (req,res)=>{
