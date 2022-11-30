@@ -1,0 +1,47 @@
+//link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet" 나눔스퀘어 링크
+// font-family: 'NanumSquareRoundLight';
+// font-family: 'NanumSquareRound';
+// font-family: 'NanumSquareRoundBold';
+// font-family: 'NanumSquareRoundExtraBold';
+@charset "utf-8";
+*{
+  font-size: 10px;
+  font-family: "NanumSquareRound", sans-serif;
+  color: #333;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: transparent;
+  user-select: none;
+}
+html, body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+button, input[type="button"], input[type="submit"]{
+  cursor: pointer;
+}
+*::-webkit-scrollbar{ //스크롤바 안보이게
+  display:none;
+}
+blockquote, q {
+  quotes: none;
+}
+a, button {
+  cursor: pointer;
+}  
+p, span {
+  cursor: default;
+}
+p{
+  word-break: keep-all;
+}
+table, thead, tbody, th, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  cursor: default;
+}

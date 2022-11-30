@@ -1,0 +1,24 @@
+<svg width="1080" height="454" viewBox="0 0 1080 454" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1080" height="454" fill="#FDEFF3"/>
+<rect width="1080" height="454" fill="#FDEFF3"/>
+<mask id="mask0_628_9440" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="454">
+<rect width="1080" height="454" fill="#FDEFF3"/>
+</mask>
+<g mask="url(#mask0_628_9440)">
+<circle cx="867.047" cy="559.003" r="303" fill="white" fill-opacity="0.3"/>
+<path d="M38.4312 578.2C52.134 526.252 128.662 419.447 325.152 407.808C570.765 393.26 951.668 574.648 1080.95 236.719" stroke="#FFA4C5"/>
+<circle cx="974.959" cy="-0.0414352" r="74.9586" fill="#FFC4D9"/>
+<circle cx="999.047" cy="372.003" r="16" fill="#FFEDBF"/>
+<path d="M159.5 191.5C48.1943 245.059 4.05796 445.51 0.669922 483.605L-74.1321 -12.3078C-63.5117 -13.5553 19.2053 -25.7509 410 -55.5C411.296 9.60046 319.5 114.51 159.5 191.5Z" fill="#FB4D8D" fill-opacity="0.05"/>
+<rect x="802.748" y="336.436" width="13" height="3" rx="1.5" transform="rotate(40.9922 802.748 336.436)" fill="#FF8CCA"/>
+<rect x="11.6309" y="136" width="13" height="3" rx="1.5" transform="rotate(32.9367 11.6309 136)" fill="#FF9B9B"/>
+<rect x="539.631" y="406" width="13" height="3" rx="1.5" transform="rotate(32.9367 539.631 406)" fill="white"/>
+<rect x="504" y="55.1494" width="13" height="3" rx="1.5" transform="rotate(-9.5172 504 55.1494)" fill="white"/>
+<rect x="143.439" y="7.50293" width="13" height="3" rx="1.5" transform="rotate(-30.4632 143.439 7.50293)" fill="#FF8CCA"/>
+<rect x="88.1113" y="313.856" width="12.7656" height="2.9459" rx="1.47295" transform="rotate(24.496 88.1113 313.856)" fill="#FAD474"/>
+<rect x="1028.68" y="243" width="12.7656" height="2.9459" rx="1.47295" transform="rotate(13.3612 1028.68 243)" fill="#CE8484"/>
+<rect x="387" y="437.676" width="12.7656" height="2.9459" rx="1.47295" transform="rotate(-12.0983 387 437.676)" fill="#2FBA99"/>
+<rect x="943.979" y="99.2754" width="20.3915" height="4.70574" rx="2.35287" transform="rotate(118.913 943.979 99.2754)" fill="#FAD474"/>
+<rect x="293.656" y="44.1172" width="7" height="2" rx="1" transform="rotate(-50.9266 293.656 44.1172)" fill="#2FBA99"/>
+</g>
+</svg>

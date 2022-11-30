@@ -1,0 +1,728 @@
+icecream=
+[  
+  {
+    "num": 1,
+    "name": "파인트",
+    "sub": "(3가지 맛)",
+    "description":"3가지 맛의 아이스크림이 선택 가능한 파인트 사이즈!",
+    "kcal": "141~306",
+    "url":"./build/img/1.png",
+    "category":"icecream",
+    "price": 8900,
+    "unit": 3,
+    "form": "various"
+  },
+  {
+    "num": 2,
+    "name": "쿼터",
+    "sub": "(4가지 맛)",
+    "description":"4가지 맛의 아이스크림이 선택 가능한 쿼터 사이즈!",
+    "kcal": "141~306",
+    "url":"./build/img/2.png",
+    "category":"icecream",
+    "price": 17000,
+    "unit": 4,
+    "form": "various"
+  },
+  {
+    "num": 3,
+    "name": "패밀리",
+    "sub": "(5가지 맛)",
+    "description":"5가지 맛의 아이스크림이 선택 가능한 패밀리 사이즈!",
+    "kcal": "141~306",
+    "url":"./build/img/3.png",
+    "category":"icecream",
+    "price": 24000,
+    "unit": 5,
+    "form": "various"
+  },
+  {
+    "num": 4,
+    "name": "하프갤런",
+    "sub": "(6가지 맛)",
+    "description":"6가지 맛의 아이스크림이 선택 가능한 하프갤론 사이즈!",
+    "kcal": "141~306",
+    "url":"./build/img/4.png",
+    "category":"icecream",
+    "price": 29000,
+    "unit":6,
+    "form": "various"
+  },
+  {
+    "num": 5,
+    "name": "버라이어티팩",
+    "sub": "(6가지 맛)",
+    "description":"분위기 있는 아이스크림 파티를 위한 깔끔한 선택, 버라이어티팩",
+    "kcal": "141~306",
+    "url":"./build/img/5.png",
+    "category":"icecream",
+    "price": 20000,
+    "unit": 6,
+    "form": "various"
+  },
+  {
+    "num": 6,
+    "name": "싱글레귤러",
+    "sub": "(콘 / 컵)",
+    "description":"한 가지 맛을 센스있게 즐길 수 있는 사이즈",
+    "kcal": "141~306",
+    "url":"./build/img/6.png",
+    "category":"icecream",
+    "price": 3500,
+    "unit": 1,
+    "form": "conecup"
+  },
+  {
+    "num": 7,
+    "name": "싱글킹",
+    "sub": "(콘 / 컵)",
+    "description":"좋아하는 맛 한 가지만 듬뿍 맛 볼 수 있는 사이즈 ",
+    "kcal": "141~306",
+    "url":"./build/img/7.png",
+    "category":"icecream",
+    "price": 4300,
+    "unit": 1,
+    "form": "conecup"
+  },
+  {
+    "num": 8,
+    "name": "더블주니어",
+    "sub": "(콘 / 컵)",
+    "description":"두 가지 맛을 조금씩 한 번에 즐기는 사이즈",
+    "kcal": "141~306",
+    "url":"./build/img/8.png",
+    "category":"icecream",
+    "price": 4700,
+    "unit": 2,
+    "form": "conecup"
+  },
+  {
+    "num": 9,
+    "name": "더블레귤러",
+    "sub": "(콘 / 컵)",
+    "description": "아이스크림 매니아를 위한 진정한 더블 사이즈",
+    "kcal": "141~306",
+    "url": "./build/img/9.png",
+    "category": "icecream",
+    "price": 6700,
+    "unit": 2,
+    "form": "conecup"
+  }
+],
+coffee=
+[ 
+  {
+    "num": 1,
+    "name": "콜드브루 오트라떼",
+    "description":"콜드브루 커피와 오트 밀크(귀리우유)가 어우러진 고소하고, 깔끔한 맛의 콜드브루 오트라떼",
+    "materials":null,
+    "kcal": 165,
+    "caffeine": 97,
+    "url":"./build/img/coffee_iceoat.png",
+    "category":"coffee",
+    "price": 4800
+  }, 
+  {
+    "num": 2,
+    "name": "카페31 아메리카노",
+    "description":"아이스 아메리카노에 주니어 사이즈 아이스크림 1스쿱을 올린 세트 메뉴",
+    "materials":null,
+    "kcal": 200,
+    "caffeine": 137,
+    "url":"./build/img/coffee_cafe31.png",
+    "category":"coffee",
+    "price": 4500
+  }, 
+  {
+    "num": 3,
+    "name": "아메리카노",
+    "description":"카페브리즈 커피를 가장 부드럽게 즐길 수 있는 따뜻한 아메리카노",
+    "materials":null,
+    "kcal": 10,
+    "caffeine": 137,
+    "url":"./build/img/coffee_ame.png",
+    "category":"coffee",
+    "price": 2800
+  },  
+  {
+    "num": 4,
+    "name": "아이스 아메리카노",
+    "description":"카페브리즈 커피의 매력을 시원하고 부드럽게 즐길 수 있는 아이스 아메리카노",
+    "materials":null,
+    "kcal": 10,
+    "caffeine": 137,
+    "url":"./build/img/coffee_iceame.png",
+    "category":"coffee",
+    "price": 2800
+  },   
+  {
+    "num": 5,
+    "name": "아메리카노 (L)",
+    "description":"카페브리즈 커피의 매력을 부드럽게 즐길 수 있는 아메리카노",
+    "materials":null,
+    "kcal": 15,
+    "caffeine": 183,
+    "url":"./build/img/coffee_ame_L.png",
+    "category":"coffee",
+    "price": 3500
+  },    
+  {
+    "num": 6,
+    "name": "아이스 아메리카노(L)",
+    "description":"카페브리즈 커피의 매력을 시원하고 부드럽게 즐길 수 있는 사이즈업 아이스 아메리카노",
+    "materials":null,
+    "kcal": 15,
+    "caffeine": 183,
+    "url":"./build/img/coffee_iceame_L.png",
+    "category":"coffee",
+    "price": 3500
+  },    
+  {
+    "num": 7,
+    "name": "바닐라빈 라떼",
+    "description":"크리미한 벨벳밀크에 바닐라빈이 더해진 풍부하고 달콤한 라떼",
+    "materials":["우유"],
+    "kcal": 285,
+    "caffeine": 149,
+    "url":"./build/img/coffee_vanilla.png",
+    "category":"coffee",
+    "price": 3800
+  },    
+  {
+    "num": 8,
+    "name": "아이스 바닐라빈 라떼",
+    "description":"크리미한 벨벳밀크에 바닐라빈이 더해진 풍부하고 달콤한 라떼",
+    "materials":["우유"],
+    "kcal": 255,
+    "caffeine": 141,
+    "url":"./build/img/coffee_icevanilla.png",
+    "category":"coffee",
+    "price": 3800
+  },    
+  {
+    "num": 9,
+    "name": "연유 라떼",
+    "description":"우유와 연유를 함께 스티밍하여 거품까지 부드러운 달콤함",
+    "materials":["우유"],
+    "kcal": 280,
+    "caffeine": 137,
+    "url":"./build/img/coffee_dolce.png",
+    "category":"coffee",
+    "price": 3800
+  },     
+  {
+    "num": 10,
+    "name": "아이스 연유 라떼",
+    "description":"달달한 연유가 듬뿍 들어가 진~한 달콤함",
+    "materials":["우유"],
+    "kcal": 310,
+    "caffeine": 141,
+    "url":"./build/img/coffee_icedolce.png",
+    "category":"coffee",
+    "price": 3800
+  },    
+  {
+    "num": 11,
+    "name": "카페 라떼",
+    "description":"진한 에스프레소에 스팀밀크가 조화롭게 어우러져 우유 자체의 단맛이 돋보이는 카페라떼",
+    "materials":["우유"],
+    "kcal": 140,
+    "caffeine": 149,
+    "url":"./build/img/coffee_dolce.png",
+    "category":"coffee",
+    "price": 3300
+  },    
+  {
+    "num": 12,
+    "name": "아이스 카페 라떼",
+    "description":"풍부하고 강렬한 에스프레소에 차가운 우유를 더해 더욱 고소한 아이스 카페라떼",
+    "materials":["우유"],
+    "kcal": 125,
+    "caffeine": 141,
+    "url":"./build/img/coffee_icedolce.png",
+    "category":"coffee",
+    "price": 3300
+  },   
+  {
+    "num": 13,
+    "name": "카라멜 마끼아또",
+    "description":"카라멜의 풍부한 향과 진한 달콤함을 느낄 수 있는 카라멜 마끼아또",
+    "materials":["우유"],
+    "kcal": 255,
+    "caffeine": 149,
+    "url":"./build/img/coffee_caramel.png",
+    "category":"coffee",
+    "price": 3800
+  }, 
+  {
+    "num": 14,
+    "name": "아이스 카라멜 마끼아또",
+    "description":"카라멜의 풍부한 향과 진한 달콤함을 느낄 수 있는 아이스 카라멜 마끼아또",
+    "materials":["우유"],
+    "kcal": 205,
+    "caffeine": 141,
+    "url":"./build/img/coffee_icecaramel.png",
+    "category":"coffee",
+    "price": 3800
+  }, 
+  {
+    "num": 15,
+    "name": "민트 초코 모카",
+    "description":"시원한 민트향과 풍부한 초콜릿, 커피 풍미가 어우러진 민트초코 모카",
+    "materials":["우유", "대두"],
+    "kcal": 295,
+    "caffeine": 141,
+    "url":"./build/img/coffee_mint.png",
+    "category":"coffee",
+    "price": 3800
+  }, 
+  {
+    "num": 16,
+    "name": "아이스 민트 초코 모카",
+    "description":"시원한 민트향과 풍부한 초콜릿, 커피 풍미가 어우러진 민트초코 모카",
+    "materials":["우유", "대두"],
+    "kcal": 280,
+    "caffeine": 141,
+    "url":"./build/img/coffee_icemint.png",
+    "category":"coffee",
+    "price": 3800
+  }
+],
+cake=
+[ 
+  {
+    "num": 1,
+    "name": "리얼 27 큐브",
+    "description":"9가지 맛 아이스크림 바이트를 초콜릿 판 위에 쌓아올려 전체 다 취식 가능한 실속있는 케이크",
+    "materials":["체리쥬빌레" , "뉴욕 치즈케이크" , "레인보우 샤베트" , "슈팅스타" , "민트 초콜릿 칩" , "아몬드 봉봉" , "이상한 나라의 솜사탕" , "엄마는 외계인" , "블루베리 치즈케이크"],
+    "url":"./build/img/cake_realcube.png",
+    "category":"cake",
+    "price": 28000
+  },   
+  {
+    "num": 2,
+    "name": "외계인의 바나나킥 케이크",
+    "description":"귀여운 짱구와 달콤한 바나나킥, 엄마는 외계인 초코볼을 더해 맛은 물론, 귀여운 디자인까지 잡은 실속만점 케이크",
+    "materials":["아몬드 봉봉", "쿠키 앤 크림", "엄마는 외계인", "블루베리 치즈케이크", "짱구가 좋아하는 외계인의 바나나킥"],
+    "url":"./build/img/cake_banana.png",
+    "category":"cake",
+    "price": 27000
+  },   
+  {
+    "num": 3,
+    "name": "특별한 너를 위한 케이크",
+    "description":"정성이 가득한 수제 느낌의 디자인을 적용한 2단 케이크로 특별한 날 선물하기 좋은 케이크",
+    "materials":["뉴욕 치즈케이크"],
+    "url":"./build/img/cake_foryou.png",
+    "category":"cake",
+    "price": 32000
+  },
+  {
+    "num": 4,
+    "name": "둥실둥실 스윗 덕",
+    "description":"좌/우, 앞/뒤 어디서 봐도 완벽하고 깜찍한 오리를 아이스크림으로 표현한 BR만의 차별화 된 케이크",
+    "materials":["초콜릿", "베리베리 스트로베리"],
+    "url":"./build/img/cake_duck.png",
+    "category":"cake",
+    "price": 28000
+  },
+  {
+    "num": 5,
+    "name": "복닥복닥 닥트리오",
+    "description":"포켓몬의 매력만점 닥트리오 캐릭터를 클레이로 표현한 디테일이 살아 있는 미니 케이크",
+    "materials":["초콜릿", "베리베리 스트로베리"],
+    "url":"./build/img/cake_dugtrio.png",
+    "category":"cake",
+    "price": 20000
+  },
+  {
+    "num": 6,
+    "name": "미니 해피 버스데이 케이크",
+    "description":"켓BR 베스트셀러 해피 버스데이 케이크의 미니 버전! 레트로 감성과 레터링 초콜릿으로 더욱 예쁜 미니 케이크",
+    "materials":["초콜릿", "베리베리 스트로베리"],
+    "url":"./build/img/cake_minihappy.png",
+    "category":"cake",
+    "price": 17000
+  }, 
+  {
+    "num": 7,
+    "name": "미니 골라먹는 와츄원",
+    "description":"BR 베스트셀러 골라먹는 와츄원의 미니 버전! 다양한 맛을 골라먹는 매력에 가성비까지 더해진 매력만점 미니 케이크",
+    "materials":["체리쥬빌레" , "뉴욕 치즈케이크" , "레인보우 샤베트" , "슈팅스타", "이상한 나라의 솜사탕", "엄마는 외계인", "민트"],
+    "url":"./build/img/cake_minishare.png",
+    "category":"cake",
+    "price": 17000
+  }, 
+  {
+    "num": 8,
+    "name": "해피 버스데이 케이크",
+    "description":"레트로 감성의 컬러풀한 스프링클스와 달콤한 레터링 초콜릿으로 모두의 생일을 특별하게 만들어 줄 케이크",
+    "materials":["체리쥬빌레", "바닐라", "레인보우 샤베트", "베리베리 스트로베리", "아몬드 봉봉", "쿠키 앤 크림", "엄마는 외계인"],
+    "url":"./build/img/cake_happy.png",
+    "category":"cake",
+    "price": 27000
+  }, 
+  {
+    "num": 9,
+    "name": "우주에서 온 엄마는 외계인",
+    "description":"배스킨라빈스 HIT 플레이버 엄마는 외계인을 컨셉으로 한 케이크",
+    "materials":["초콜릿" , "민트 초콜릿 칩" , "베리베리 스트로베리" , "아몬드 봉봉" , "쿠키 앤 크림" , "엄마는 외계인" , "블루베리 치즈케이크" , "트리플 초콜릿"],
+    "url":"./build/img/cake_alien.png",
+    "category":"cake",
+    "price": 28000
+  },  
+  {
+    "num": 10,
+    "name": "왔다! 춘식이",
+    "description":"귀여운 춘식이 캐릭터 얼굴 모형 속에 달콤한 비밀이 숨어있는 케이크",
+    "materials":["초콜릿 무스" , "체리쥬빌레" , "뉴욕 치즈케이크" , "초콜릿 칩" , "레인보우 샤베트" , "민트 초콜릿 칩" , "베리베리 스트로베리" , "아몬드 봉봉" , "31요거트" , "쿠키 앤 크림" , "엄마는 외계인" , "트리플 초콜릿"],
+    "url":"./build/img/cake_choon.png",
+    "category":"cake",
+    "price": 30000
+  },  
+  {
+    "num": 11,
+    "name": "내 칭구 다람쥐",
+    "description":"모두에게 친숙한 동물! 다람쥐를 아이스크림 케이크로 만날 수 있는 깜찍한 비주얼의 케이크",
+    "materials":["초콜릿" , "바닐라"],
+    "url":"./build/img/cake_squirrel.png",
+    "category":"cake",
+    "price": 25000
+  },   
+  {
+    "num": 12,
+    "name": "내 칭구 토끼",
+    "description":"모두에게 친숙한 동물! 토끼를 아이스크림 케이크로 만날 수 있는 깜찍한 비주얼의 케이크",
+    "materials":[null],
+    "url":"./build/img/cake_rabbit.png",
+    "category":"cake",
+    "price": 25000
+  },   
+  {
+    "num": 13,
+    "name": "골라먹는 스노우 볼",
+    "description":"동글동글 스노우 볼을 가득 쌓아 올려 다양한 맛의 아이스크림을 즐길 수 있는 실속만점 케이크",
+    "materials":["체리쥬빌레" , "레인보우 샤베트" , "슈팅스타" , "민트 초콜릿 칩" , "베리베리 스트로베리" , "아몬드 봉봉" , "쿠키 앤 크림" , "엄마는 외계인" , "바나나" , "민트" , "솜사탕" , "트리플 초콜릿"],
+    "url":"./build/img/cake_snow.png",
+    "category":"cake",
+    "price": 28000
+  },  
+  {
+    "num": 14,
+    "name": "듀얼 와츄원 NO.9",
+    "description":"16가지 베스트 플레이버로 구성된 풍성한 볼륨감의 베스트셀러 케이크",
+    "materials":["초콜릿 무스" , "체리쥬빌레" , "뉴욕 치즈케이크" , "초콜릿" , "슈팅스타" , "베리베리 스트로베리" , "아몬드 봉봉" , "31요거트" , "쿠키 앤 크림" , "엄마는 외계인" , "민트" , "트리플 초콜릿"],
+    "url":"./build/img/cake_dual.png",
+    "category":"cake",
+    "price": 31000
+  }, 
+  {
+    "num": 15,
+    "name": "골라먹는 와츄원",
+    "description":"형형 색색의 동그라미 패턴을 넣어 산뜻한 느낌을 가득 담은 케이크",
+    "materials":["체리쥬빌레" , "레인보우 샤베트" , "슈팅스타" , "베리베리 스트로베리" , "아몬드 봉봉" , "엄마는 외계인" , "블루베리 치즈케이크" , "체리" , "민트" ,"솜사탕" , "트리플 초콜릿"],
+    "url":"./build/img/cake_choose.png",
+    "category":"cake",
+    "price": 28000
+  },
+  {
+    "num": 16,
+    "name": "해피데이 카카오프렌즈",
+    "description": "9가지 플레이버로 구성되어 나눠먹기 편리한 아이스크림케이크",
+    "materials":["체리쥬빌레" , "뉴욕 치즈케이크", "레인보우 샤베트" , "슈팅스타" , "민트 초콜릿 칩" , "베리베리 스트로베리" , "쿠키 앤 크림" , "엄마는 외계인" , "블루베리 치즈케이크"],
+    "url":"./build/img/cake_kakao.png",
+    "category":"cake",
+    "price": 29000
+  },   
+  {
+    "num": 17,
+    "name": "나눠먹는 와츄원",
+    "description": "다양한 9가지 맛 아이스크림을 트레이로 편리하게 나눠 먹고, 보관까지 쉬운 케이크",
+    "materials":["체리쥬빌레" , "뉴욕 치즈케이크" , "바닐라" , "레인보우 샤베트" , "슈팅스타" , "민트 초콜릿 칩" , "베리베리 스트로베리" , "아몬드 봉봉" , "쿠키 앤 크림"],
+    "url":"./build/img/cake_share.png",
+    "category":"cake",
+    "price": 32000
+  },  
+  {
+    "num": 18,
+    "name": "핑크 플라워 가든",
+    "description": "꽃 모양 아이스크림에 달콤한 마카롱과 나비 머랭이 가득한 핑크빛 케이크",
+    "materials":["체리쥬빌레" , "레인보우 샤베트" , "쿠키 앤 크림" , "이상한 나라의 솜사탕" , "엄마는 외계인" , "블루베리 치즈케이크" , "바나나" , "체리" , "민트" , "솜사탕"],
+    "url":"./build/img/cake_flower.png",
+    "category":"cake",
+    "price": 28000
+  },  
+  {
+    "num": 19,
+    "name": "바로먹는 와츄원",
+    "description": "달콤한 아이스크림 구름 위에서 즐거운 시간을 보내는 카카오프렌즈 친구들을 Bar로 즐길 수 있는 케이크",
+    "materials":["초콜릿 무스" , "체리쥬빌레" , "뉴욕 치즈케이크" , "레인보우 샤베트", "슈팅스타" , "베리베리 스트로베리" , "아몬드 봉봉" , "31요거트" , "쿠키 앤 크림" , "엄마는 외계인" , "바나나" , "트리플 초콜릿"],
+    "url":"./build/img/cake_eat.png",
+    "category":"cake",
+    "price": 31000
+  },  
+  {
+    "num": 20,
+    "name": "스마일 스노우 블러섬",
+    "description": "행복한 웃음을 짓고 있는 스마일 초콜렛과 함께 8가지맛 조각 케이크로 다양한 맛을 즐길 수 있는 케이크",
+    "materials":["뉴욕 치즈케이크" , "레인보우 샤베트" , "슈팅스타" , "민트 초콜릿 칩" , "아몬드 봉봉" , "이상한 나라의 솜사탕" , "엄마는 외계인" , "체리"],
+    "url":"./build/img/cake_smile.png",
+    "category":"cake",
+    "price": 26000
+  },   
+  {
+    "num": 21,
+    "name": "나눠먹는 큐브 와츄원",
+    "description": "다양한 종류의 데코로 보는 즐거움과 맛을 한번에 즐길 수 있는 케이크",
+    "materials":["체리쥬빌레" , "뉴욕 치즈케이크" , "레인보우 샤베트" , "슈팅스타" , "베리베리 스트로베리" , "아몬드 봉봉" , "쿠키 앤 크림" , "이상한 나라의 솜사탕" , "엄마는 외계인" , "블루베리 치즈케이크" , "바나나" , "체리"],
+    "url":"./build/img/cake_sharecube.png",
+    "category":"cake",
+    "price": 33000
+  }
+],
+flavor=
+[ 
+  {
+    "num": 1,
+    "name": "뮤! 넌 내거야",
+    "description":"달콤상큼한 딸기&딸기 우유 아이스크림에 바삭한 크리스피 볼이 쏙쏙!",
+    "materials": ["우유", "대두"],
+    "kcal": 217,
+    "url":"./build/img/flavor_mu.png",
+    "category":"flavor"
+  },
+  {
+    "num": 2,
+    "name": "짱구가 좋아하는 외계인의 바나나킥",
+    "description":"초콜릿, 바나나, 바나나킥 3가지 맛 아이스크림에 바나나&초콜릿 프레첼볼과 초콜릿 칩이 어우러진 맛",
+    "materials":["우유", "계란", "대두", "밀"],
+    "kcal": 257,
+    "url":"./build/img/flavor_banana.png",
+    "category":"flavor"
+  },
+  {
+    "num": 3,
+    "name": "민트 초콜릿 칩",
+    "description":"쿨한 당신의 선택! 상쾌한 민트향에 초코칩까지!",
+    "materials": ["우유", "대두"],
+    "kcal": 259,
+    "url":"./build/img/flavor_mint.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 4,
+    "name": "뉴욕 치즈케이크",
+    "description":"부드럽게 즐기는 뉴욕식 정통 치즈케이크 아이스크림",
+    "materials": ["우유", "대두", "밀"],
+    "kcal": 295,
+    "url":"./build/img/flavor_newyork.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 5,
+    "name": "이상한 나라의 솜사탕",
+    "description":"부드럽고 달콤한 솜사탕과 함께 떠나는 이상한 나라로의 여행",
+    "materials": ["우유", "대두"],
+    "kcal": 287,
+    "url":"./build/img/flavor_cotton.png",
+    "category":"flavor"
+  },          
+  {
+    "num": 6,
+    "name": "알폰소 망고",
+    "description":"알폰소 망고와 우유 아이스크림의 부드러운 만남",
+    "materials": ["우유"],
+    "kcal": 247,
+    "url":"./build/img/flavor_mango.png",
+    "category":"flavor"
+  },    
+  {
+    "num": 7,
+    "name": "엄마는 외계인",
+    "description":"밀크 초콜릿, 다크 초콜릿, 화이트 무스 세 가지 아이스크림에 달콤 바삭한 초코볼이 더해진 아이스크림",
+    "materials": ["우유", "대두", "밀"],
+    "kcal": 296,
+    "url":"./build/img/flavor_alien.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 8,
+    "name": "피카피카 피카츄",
+    "description":"달콤한 바나나 아이스크림에 부드러운 커스터드 크림, 초콜릿 후레이크와 레드 팝핑캔디가 쏙쏙",
+    "materials": ["우유", "대두"],
+    "kcal": 269,
+    "url":"./build/img/flavor_pika.png",
+    "category":"flavor"
+  }, 
+  {
+    "num": 9,
+    "name": "비타 500 소르베",
+    "description":"상큼한 비타민C의 맛! 시원한 소르베로 즐기는 비타 500",
+    "materials": null,
+    "kcal": 136,
+    "url":"./build/img/flavor_vita.png",
+    "category":"flavor"
+  },      
+  {
+    "num": 10,
+    "name": "찰떡콩떡",
+    "description":"찰떡 아이스크림, 콩고물 아이스크림에 고소한 인절미 떡과 흑임자 볼이 어우러진 아이스크림",
+    "materials": ["우유", "대두", "밀", "땅콩"],
+    "kcal": 246,
+    "url":"./build/img/flavor_dduck.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 11,
+    "name": "피나 콜라다",
+    "description":"상큼한 파인애플&코코넛 샤베트에 파인애플이 쏙쏙",
+    "materials": ["우유"],
+    "kcal": 199,
+    "url":"./build/img/flavor_pina.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 12,
+    "name": "오레오 쿠키 앤 크림",
+    "description":"부드러운 바닐라향 아이스크림에, 달콤하고 진한 오레오 쿠키가 듬뿍!",
+    "materials": ["우유", "대두", "밀"],
+    "kcal": 228,
+    "url":"./build/img/flavor_oreo.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 13,
+    "name": "월넛",
+    "description":"고소하고 향긋한 호두 아이스크림에 호두가 듬뿍 들어있는 제품",
+    "materials": ["우유", "호두"],
+    "kcal": 276,
+    "url":"./build/img/flavor_walnut.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 14,
+    "name": "프랄린 앤 크림",
+    "description":"중동지역 배스킨라빈스 No.1",
+    "materials": ["우유"],
+    "kcal": 294,
+    "url":"./build/img/flavor_pral.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 15,
+    "name": "아몬드 봉봉",
+    "description":"입안 가득 즐거운 초콜릿, 아몬드로 더욱 달콤하게!",
+    "materials": ["우유", "대두"],
+    "kcal": 312,
+    "url":"./build/img/flavor_amond.png",
+    "category":"flavor"
+  },    
+  {
+    "num": 16,
+    "name": "마법사의 할로윈",
+    "description":"초콜릿과 민트향 아이스크림속에 마법같은 팝핑캔디가 톡톡!",
+    "materials": ["우유", "대두"],
+    "kcal": 304,
+    "url":"./build/img/flavor_magician.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 17,
+    "name": "사랑에 빠진 딸기",
+    "description":"크런치 초콜릿, 치즈 케이크, 스트로베리가 듬뿍 들어있는 아이스크림",
+    "materials": ["우유", "대두", "밀", "계란", "땅콩"],
+    "kcal": 292,
+    "url":"./build/img/flavor_loveberry.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 18,
+    "name": "피스타치오 아몬드",
+    "description":"피스타치오향과 아몬드가 만나 고소함이 두배!",
+    "materials": ["우유"],
+    "kcal": 302,
+    "url":"./build/img/flavor_pista.png",
+    "category":"flavor"
+  },  
+  {
+    "num": 19,
+    "name": "베리베리 스트로베리",
+    "description":"새콤상큼 딸기 과육이 듬뿍!",
+    "materials": ["우유"],
+    "kcal": 228,
+    "url":"./build/img/flavor_very.png",
+    "category":"flavor"
+  },  
+  {
+    "num": 20,
+    "name": "바람과 함께 사라지다",
+    "description":"블루베리와 딸기로 상큼함을 더한 치즈케이크 한 조각",
+    "materials": ["우유", "대두", "밀", "계란"],
+    "kcal": 269,
+    "url":"./build/img/flavor_wind.png",
+    "category":"flavor"
+  },  
+  {
+    "num": 21,
+    "name": "레인보우 샤베트",
+    "description":"상큼한 파인애플, 오렌지, 라즈베리 샤베트",
+    "materials": ["우유"],
+    "kcal": 162,
+    "url":"./build/img/flavor_rainbow.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 22,
+    "name": "초콜릿 무스",
+    "description":"초콜릿 칩이 들어있는 진한 초콜릿 아이스크림",
+    "materials": ["우유", "대두"],
+    "kcal": 280,
+    "url":"./build/img/flavor_mousse.png",
+    "category":"flavor"
+  },
+  {
+    "num": 23,
+    "name": "초콜릿",
+    "description":"진하고 부드러운 정통 초콜릿 아이스크림",
+    "materials": ["우유"],
+    "kcal": 274,
+    "url":"./build/img/flavor_choco.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 24,
+    "name": "31요거트",
+    "description":"유산균이 살아 있는 오리지널 요거트 아이스크림",
+    "materials": ["우유", "대두"],
+    "kcal": 198,
+    "url":"./build/img/flavor_yogurt.png",
+    "category":"flavor"
+  },     
+  {
+    "num": 25,
+    "name": "바닐라",
+    "description":"부드럽고 깔끔한 바닐라 아이스크림",
+    "materials": ["우유"],
+    "kcal": 246,
+    "url":"./build/img/flavor_vanilla.png",
+    "category":"flavor"
+  },   
+  {
+    "num": 26,
+    "name": "그린티",
+    "description":"엄선된 녹차를 사용한 싱그러운 그린티 아이스크림",
+    "materials": ["우유"],
+    "kcal": 245,
+    "url":"./build/img/flavor_green.png",
+    "category":"flavor"
+  },  
+  {
+    "num": 27,
+    "name": "체리쥬빌레",
+    "description":"체리과육이 탱글탱글 씹히는 체리 아이스크림",
+    "materials": ["우유"],
+    "kcal": 239,
+    "url":"./build/img/flavor_cherry.png",
+    "category":"flavor"
+  }
+]

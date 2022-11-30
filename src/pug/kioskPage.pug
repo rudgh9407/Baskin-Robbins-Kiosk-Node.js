@@ -1,0 +1,780 @@
+doctype html
+html(lang="KO")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no")
+    link(rel="apple-touch-icon" sizes="57x57" href="/build/img/favicon/apple-icon-57x57.png")
+    link(rel="apple-touch-icon" sizes="60x60" href="/build/img/favicon/apple-icon-60x60.png")
+    link(rel="apple-touch-icon" sizes="72x72" href="/build/img/favicon/apple-icon-72x72.png")
+    link(rel="apple-touch-icon" sizes="76x76" href="/build/img/favicon/apple-icon-76x76.png")
+    link(rel="apple-touch-icon" sizes="114x114" href="/build/img/favicon/apple-icon-114x114.png")
+    link(rel="apple-touch-icon" sizes="120x120" href="/build/img/favicon/apple-icon-120x120.png")
+    link(rel="apple-touch-icon" sizes="144x144" href="/build/img/favicon/apple-icon-144x144.png")
+    link(rel="apple-touch-icon" sizes="152x152" href="/build/img/favicon/apple-icon-152x152.png")
+    link(rel="apple-touch-icon" sizes="180x180" href="/build/img/favicon/apple-icon-180x180.png")
+    link(rel="icon" type="image/png" sizes="192x192"  href="/build/img/favicon/android-icon-192x192.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="/build/img/favicon/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="96x96" href="/build/img/favicon/favicon-96x96.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="/build/img/favicon/favicon-16x16.png")
+    link(rel="manifest" href="/build/img/favicon/manifest.json")
+    meta(name="msapplication-TileColor" content="#ffffff")
+    meta(name="msapplication-TileImage" content="/build/img/favicon/ms-icon-144x144.png")
+    meta(name="theme-color" content="#ffffff")
+    title KIOSK - BASKIN ROBBINS
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Jua&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css")
+    link(href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet")
+    link(rel="stylesheet", href="/build/css/kioskPage.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js")
+    script(type="text/javascript", src="/build/js/kioskPage.js")
+  body
+    //- 메인 홈 화면
+    section#pageHome
+      main
+        ul.wrapHomeSlider
+      footer
+        article
+          ul
+        p 화면을 터치해주세요.
+
+    //- 상품 선택 화면
+    section#pageProduct
+      header#wrapLogoHeader
+        section 
+          article
+            div#imgLogo
+          article 
+            div#imgAdmin
+              div
+            div#imgHomeProduct
+              div
+      main
+        article.mainTapTitleWrap
+          div
+            div.mainTabActive#productTab1 
+              p 아이스크림
+            div#productTab2
+              p 커피
+            div#productTab3
+              p 케이크
+        article.mainProductWrap
+          div#btnLeftProduct
+            div
+          div#btnRightProduct
+            div
+          div.widthProductBox  
+            div.cardlistProduct#productPage1
+            div.cardlistProduct2#productPage2
+          div.paginationWrapProduct
+        article.mainBtnWrap
+          div
+            div 장바구니
+              div#countProduct 10
+            div#btnProductPay
+              div ₩300,000,000 
+              div 결제하기
+                div
+                  div
+      footer#wrapProductFooter
+        section#areaProductCart 
+        div#btnBannerLeft 
+          div
+        div#btnBannerRight
+          div
+    
+    //- 옵션 컵
+    section#pageOptionCup
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 옵션 선택
+          p#textStepTwo 맛 선택
+      main
+        div.areaTemp
+        section.areaContents
+          section#containerTopInfoCup
+          //option explain end
+          section
+            div#containerOptionCup
+          //option main end
+          section
+            section#containerOptionBtnCup
+              article#btnOptionPrev
+                article
+                p 이전 화면 
+              article#btnOptionNext 
+                p
+                article 
+                  p 담기
+                  article 
+        div.areaTemp
+      footer#wrapOptionFooterCup
+    
+    //- 옵션 아이스크림
+    section#pageOptionIce
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 옵션 선택
+          p#textStepTwo 맛 선택
+      main
+        div.areaTemp
+        section.areaContents
+          section#containerTopInfoIce
+          //option explain end
+          section
+            div#containerOptionIce
+          //option main end
+          section
+            section#containerOptionBtnIce
+              article#btnOptionPrev
+                article
+                p 이전 화면 
+              article#btnOptionNext 
+                p
+                article 
+                  p 맛 선택
+                  article 
+        div.areaTemp
+      footer#wrapOptionFooterIce
+    
+    //- 옵션 케이크
+    section#pageOptionCake
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 옵션 선택
+          p#textStepTwo 담기
+      main
+        div.areaTemp
+        section.areaContents
+          section#containerTopInfoCake
+          //option explain end
+          section
+            div#containerOptionCake
+          //option main end
+          section
+            section#containerOptionBtnCake
+              article#btnOptionPrev
+                article
+                p 이전 화면 
+              article#btnOptionNext 
+                p
+                article 
+                  p 담기
+                  article 
+          //button area end
+        div.areaTemp
+      footer#wrapOptionFooterCake
+    
+    //- 옵션 커피
+    section#pageOptionCoffee
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 옵션 선택
+          p#textStepTwo 담기
+      main
+        div.areaTemp
+        section.areaContents
+          section#containerTopInfoCoffee
+          //option explain end
+          section
+            div#containerOptionCoffee
+          //option main end 
+          section
+            section#containerOptionBtnCoffee
+              article#btnOptionPrev
+                article
+                p 이전 화면 
+              article#btnOptionNext 
+                p
+                article 
+                  p 담기
+                  article 
+        div.areaTemp
+      footer#wrapOptionFooterCoffee
+    
+    //- 맛 선택 화면 팝업창
+    section#flavorPopupArea
+      article
+        div
+          p 메뉴 화면으로 돌아가시겠습니까?
+        div
+          p 아니요
+          p 네
+    
+    //- 맛 선택 화면
+    section#pageFlavor 
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 옵션 선택
+          p#textStepTwo 맛 선택
+      main 
+        article.mainFlavorWrap
+          div.btnFlavorLeft#btnLeftFlavor
+            div
+          div.btnFlavorRight#btnRightFlavor
+            div
+          div.widthFlavorBox  
+            div.cardlistFlavor#flavorPage1
+            div.cardlistFlavor2#flavorPage2
+            div.cardlistFlavor3#flavorPage3
+          div.paginationWrapFlavor
+            div.paginationActive
+            div 
+            div
+        article.mainSelectFlavor
+          //- - for (let i=0; i<6; i++)
+          //-   div.cardSelectFlavor
+          //-     div
+          //-     span
+          //-       div
+          //-     p TEST
+        article.buttonArea
+          div#btnFlavorBack 
+            p 이전 화면
+            div
+              div
+          div#btnFlavorNext
+            p 담기
+            div
+              span
+      footer#wrapFlavorFooter
+        article
+          div 
+          div
+            p 
+            p 
+            p
+
+    //- 장바구니 결제 화면 
+    section#pageCart 
+      header#wrapLogoHeader
+        section 
+          article
+            div#imgLogo
+          article 
+            div#imgLang
+              div
+            div#imgHomeCart
+              div
+      main 
+        section
+          article
+            div
+              p 1단계
+          article
+            div
+              p 주문내역을 확인해 주세요.
+        section#cartListArea
+        section
+          article
+            div
+              p 2단계
+          article
+            div
+              p 결제 금액을 확인해 주세요.
+          article
+            div
+              div
+                p ₩
+                p#cartTotalPrice 0
+        section
+          article#btnCartPay
+            p 결제하기
+      footer#wrapCartFooter
+        div#btnCartDown
+          i.xi-arrow-down
+      section#cartPopupArea
+        article
+          div
+            p 상품을 삭제하시겠습니까?
+          div
+            p 아니요
+            p 네
+
+    //- 결제하기 화면
+    section#pageOptionPoint 
+      header#wrapStepheader
+        article#imgStep
+          p#textStepOne 포인트 적립
+          p#textStepTwo 결제하기
+      main 
+        article.paymentPlan
+          p 할부 선택
+          p 적립금이 있으신가요?
+          div#btnMonthly
+            span.monthlySelect 할부 안함 
+            span 2개월 할부 
+            span 5개월 할부
+        article.pointOption
+          p 포인트 사용
+          p 적립금이 있으신가요?
+          div#selectPoint
+            span 
+              div
+              p 적립하기
+            span 
+              div
+              p 사용하기
+              //pointCheck 클래스 주면 색깔들어감
+          li 포인트 사용 시 자동 적립됩니다.
+        article.buttonArea
+          div#btnPointOptionBack 
+            p 이전 화면
+            div
+              div
+          div#btnPointOptionNext
+            p 다음 단계 (결제하기)
+            div
+              span
+      footer
+    
+    //- 회원번호 입력 화면 
+    section#pageInputNum 
+      header 
+      main#wrapPageInputNum 
+        section
+          p 회원번호를 입력해주세요
+          p 포인트를 사용할 휴대폰 번호를 입력해주세요.
+          article#inputMemIN
+            p
+            p 샘플) 11122223333
+          article#btnKeypadIN
+            div 
+              p 1
+            div 
+              p 2
+            div 
+              p 3
+            div 
+              p 4
+            div 
+              p 5
+            div 
+              p 6
+            div 
+              p 7
+            div 
+              p 8
+            div 
+              p 9
+            div 
+              p 전체 지움
+            div 
+              p 0
+            div 
+              div
+          article 
+            article#btnBackIN
+              article
+                div
+              p 이전 화면
+            article#btnNextIN
+              p 입력 완료
+              article 
+                div 
+      footer 
+
+    //- 포인트 적립 화면 
+    section#pagePointView 
+      header 
+      main#wrapPointView 
+        section
+          p 포인트 적립
+          p 하단의 닫기 버튼을 눌러 다음 화면으로 이동하세요.
+          div.lottie_container
+          article
+            p#savePointPV1
+            p#savePointPV2
+          article#btnNextPV
+            p 닫기
+      footer 
+
+    //- 포인트 사용 화면 
+    section#pageUsePoint 
+      header 
+      main#wrapPageUsePoint 
+        section
+          article
+            p 보유 포인트
+            div 
+              p#currentPointUP
+            p P
+          article
+            p 사용 포인트
+            div 
+              p#usePointUP
+            p P
+          article
+            p • 포인트는 1000p부터 사용 가능합니다.
+          article#btnKeypadUP
+            div
+              p 1
+            div 
+              p 2
+            div 
+              p 3
+            div 
+              p 4
+            div 
+              p 5
+            div 
+              p 6
+            div 
+              p 7
+            div 
+              p 8
+            div 
+              p 9
+            div 
+              p 전체 지움
+            div 
+              p 0
+            div 
+              div
+          article 
+            article#btnBackUP
+              article
+                div
+              p 이전 화면
+            article#btnNextUP
+              p 입력 완료
+              article 
+                div 
+      footer 
+
+    //- 포인트 확인 화면 
+    section#pageFinalCost
+      header 
+      main#wrapFinalCostMain 
+        section 
+          p 결제하기
+          p 최종 결제금액을 확인해주세요.
+          article 
+            article 
+              p 총 금액
+              p#totalCostFC
+            article 
+              p 포인트 사용량
+              p#usePointFC
+            article 
+              p 적립 포인트
+              p#savePointFC
+          div
+          article 
+            p 최종 결제 금액
+            article
+              p#lastCostFC1
+              p#lastCostFC2
+          article 
+            article#btnBackFC
+              article
+                div
+              p 이전 화면
+            article#btnNextFC
+              p 결제하기
+              article 
+                div
+      footer 
+
+    //- 카드 결제 화면 
+    section#pageCard 
+      main#wrapPageCard 
+        section
+          p 결제하기
+          p 이미지와 같이 신용카드(IC카드)를 끝까지 넣어주세요.
+          article 
+          div 
+            div 
+            div
+            div 
+          div 
+            div 
+            div 
+            div
+          article 
+            article#btnCanclePC
+              p 취소
+            article#btnNextPC 
+              p 결제 완료
+              article 
+                div 
+    
+    //- 결제 완료 화면 
+    section#pageFinish 
+      header 
+      main#wrapPageFinish 
+        section
+          p 결제 완료
+          p 영수증을 확인하시고 카드를 꼭 회수하세요.
+          div
+          article
+            p 주문번호
+            article
+              p#pageFinishOrder1
+              p#pageFinishOrder2
+          article 
+            p#btnPrintYes 영수증 출력
+            p#btnPrintNo 영수증 미출력
+      footer 
+
+    //- 팝업 창 화면 
+    section#cardPopupArea
+      article
+        div
+          p 결제를 취소하시겠습니까?
+        div
+          p 아니요
+          p 네    
+
+    //- DB 값 전달 용도 
+    section#hiddenData
+      form(method="post")
+        input(id="hiddenId" type="text" name="id")
+        input(id="hiddenNumber" type="text" name="number")
+        input(id="hiddenPoint" type="text" name="point") 
+        input(id="hiddenDate" type="text" name="date") 
+        input(id="hiddenDay" type="text" name="day" value= dayTarget) 
+        input(id="hiddenCount" type="text" name="count" value= maxCount) 
+        input(id="hiddenKeyCount" type="text" name="keyCount" value="1") 
+        input(id="hiddenKey" type="text" name="key") 
+        input(id="adminDataList" type="text" name="adminDataList")
+        input(id="hiddenBtn" type="submit")
+
+    //- 영수증 화면 
+    section#pageRecipt 
+      main#wrapPageRecipt
+        section
+          p 영수증
+          article#printRecipt
+            p PRINT
+          i.xi-close#closeRecipt
+        section#printAreaRecipt.printAreaRecipt
+          //==== 1
+          div
+          //==== 2
+          p www.baskinrabbins.co.kr 
+          //==== 3
+          p 주문번호 
+          //==== 4
+          p#orderRecipt 999
+          //==== 5
+          .dotRecipt 
+          //==== 6
+          p 라인컴퓨터아트학원
+          //==== 7
+          p 조대룡 선생님
+          //==== 8
+          p 김푸름 박경호 박준영 백지수 최은지
+          //==== 9
+          .dotRecipt
+          //==== 10  시간 datetime
+          p#timeRecipt [ 정상 ] 2022-10-22 24:00:00
+          //==== 11
+          .dotRecipt
+          //==== 12
+          article 
+            p 제품명
+            p 수량
+            p 금액
+          //==== 13
+          article 
+            p (할인내역)
+            p (할인금액)
+          //==== 14
+          .dotRecipt
+          //==== 15
+          article#listRecipt
+            article
+              article
+                p 001
+                p 파인트
+              article
+                p 1
+                p 9,000
+          //==== 16
+          .dotRecipt
+          //==== 17
+          article
+            p 과세금액
+            // p 결제금액*0.9
+            p#realPriceRecipt 7,200
+          //==== 18
+          article
+            p 부가세
+            // p 결제금액*0.1
+            p#taxPriceRecipt 800
+          //==== 19
+          .dotRecipt
+          //==== 20
+          article
+            p 총매출액
+            // p 금액
+            p#totalPriceRecipt 5,000
+          //==== 21
+          article 
+            p 합계금액
+            // p 금액
+            p#totalPaymentRecipt 5,000
+          //==== 22
+          article 
+            p 받은금액
+            // p 금액
+            p#paymentPriceRecipt 5,000
+          //==== 23
+          .dotRecipt
+          //==== 24
+          article 
+            p [ 해피포인트 ]
+            // p 사용 포인트
+            p#usePointRecipt 3,000
+          //==== 25
+          .dotRecipt
+          //==== 26
+          article 
+            p [ 신용카드 ]
+            // p LastPay
+            p#lastPaymentRecipt 5,000
+          //==== 27
+          .dotRecipt
+          //==== 28
+          article
+            article
+              p ■ 해피포인트
+              p [ 승인번호 ]
+              p [ 적립/잔여포인트 ]
+            article
+              // p 회원번호
+              p#memberRecipt 010********
+              // p 적립포인트/잔여포인트
+              p#lastPointRecipt 30/1000
+          //==== 29
+          .dotRecipt
+          //==== 30
+          div
+          //==== 31
+          div
+
+    //- 로그아웃 팝업창
+    section#logoutPopupArea
+      article
+        div 
+        p 이용시간을 연장하시겠습니까?
+        div
+          p#viewCountLogout
+          p 뒤 로그아웃 됩니다
+        div
+          p 아니요
+          p 네
+
+    //- 관리자 화면
+    section#pageAdmin     
+      header#wrapAdminHeader
+        section 
+          article
+            div#imgLogo
+          article
+            div
+            div#imgHomeInAdmin
+              div
+        article#adminTapTitle
+          div
+            div#adminTab1 
+              p 일 매출
+            div#adminTab2
+              p 월 매출
+            div#adminTab3
+              p 매출 순위
+      section#adminMainPage
+        // 1 
+        article
+          article
+            article
+              p#nowTimeAdmin1
+              p#nowTimeAdmin2
+            article 
+              p.nowTimeType
+              p.nowTimeType
+            p#subTimeAdmin
+          article#viewTotalAdmin
+            div
+              p 매출액
+              p#totalMoneyAdmin 300,000,000원
+            div
+              p 판매 수량
+              p#totalCountAdmin 300,000,000개
+          div#admin3DImg
+        // 2
+        article#adminTypeTitle 
+          div#typeTab1.btnListActive
+            p 아이스크림
+          div#typeTab2
+            p 커피
+          div#typeTab3
+            p 케이크
+        // 3
+        article#mainAdminWrap
+          div#listTitleAdmin
+            div 
+              p 제품명
+            div 
+              p 수량
+          div#listDescAdmin
+            article 
+              div 
+                p 파인트 (3가지 맛)
+              div 
+                p 2
+
+    //- 관리자 번호 입력창
+    section#adminInputNum 
+      header 
+      main#wrapAdminInputNum 
+        section
+          p 비밀번호를 입력해 주세요
+          p 관리자 패스워드를 일치하게 입력해 주세요.
+          article#inputAdmin
+            p
+            p 샘플) 2022
+          article#btnKeypadAdmin
+            div 
+              p 1
+            div 
+              p 2
+            div 
+              p 3
+            div 
+              p 4
+            div 
+              p 5
+            div 
+              p 6
+            div 
+              p 7
+            div 
+              p 8
+            div 
+              p 9
+            div 
+              p 전체 지움
+            div 
+              p 0
+            div 
+              div
+          article 
+            article#btnBackAdmin
+              article
+                div
+              p 이전 화면
+            article#btnNextAdmin
+              p 입력 완료
+              article 
+                div 
+      footer 
+
+    script(src="/src/product.json")
+    script(src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js")
+
+
+
